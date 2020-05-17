@@ -10,7 +10,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Components',
       debugShowCheckedModeBanner: false,
-      // home: HomePage(),
       initialRoute: '/',
       routes: getApplicationRoutes(),
       onGenerateRoute: (settings) {
